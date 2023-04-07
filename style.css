@@ -36,6 +36,18 @@ body {
     display: inline-block;
 }
 
+.button:hover {
+    color: #222;
+    background: var(--primary);
+}
+input, textarea{
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 10px 16px;
+    border-radius: 20px;
+    border: 2px solid #9893d8;
+    color: #f2f2f2;
+}
+
 /* FONTS */
 
 /* mobile style */
