@@ -53,7 +53,7 @@ textarea {
 /* FONTS */
 @font-face {
     font-family: 'Rubik Regular';
-    scr: url('./assets/fonts/Rubik-Regular.ttf')
+    src: url('./assets/fonts/Rubik-Regular.ttf')
 }
 
 /* mobile style */
