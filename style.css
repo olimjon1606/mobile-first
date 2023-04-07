@@ -20,9 +20,15 @@ li {
 }
 
 /* base style */
-body{
+body {
     background: var(--secondary);
     overflow-x: hidden;
+}
+
+.button {
+    background: none;
+    border: 2px solid var(--primary);
+    color: var(--primary)
 }
 
 /* FONTS */
