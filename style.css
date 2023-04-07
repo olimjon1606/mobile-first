@@ -23,6 +23,37 @@ li {
 body {
     background: var(--secondary);
     overflow-x: hidden;
+    font-family: 'Rubik Regular';
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #dddbff;
+    font-weight: normal;
+}
+
+p,
+a,
+li {
+    color: #9893D8;
+}
+
+h1,
+h3 {
+    font-size: 1.2em;
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+h4 {
+    font-size: 1.1em;
+}
+.leading{
+    font-size: 1.1em;
 }
 
 .button {
@@ -62,7 +93,15 @@ textarea {
 @media screen and (min-width: 620px) {}
 
 /* large tablets & laptop */
-@media screen and (min-width: 960px) {}
+@media screen and (min-width: 960px) {
+    body {
+        font-size: 18px;
+    }
+}
 
 /* desctop style*/
-@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 20px;
+    }
+}
