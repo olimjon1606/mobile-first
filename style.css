@@ -40,7 +40,9 @@ body {
     color: #222;
     background: var(--primary);
 }
-input, textarea{
+
+input,
+textarea {
     background-color: rgba(255, 255, 255, 0.05);
     padding: 10px 16px;
     border-radius: 20px;
@@ -49,6 +51,9 @@ input, textarea{
 }
 
 /* FONTS */
+@font-face {
+    font-family: 'Rubik Regular';
+}
 
 /* mobile style */
 
