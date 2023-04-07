@@ -1,4 +1,8 @@
 /* variables */
+:root {
+    --primary: #ffc636;
+    --secondary: #0a0b5b;
+}
 
 /* reset */
 
@@ -9,16 +13,10 @@
 /* mobile style */
 
 /* small tablet style */
-@media screen and (min-width: 620px){
-    
-}
+@media screen and (min-width: 620px) {}
 
 /* large tablets & laptop */
-@media screen and (min-width: 960px){
-
-}
+@media screen and (min-width: 960px) {}
 
 /* desctop style*/
-@media screen and (min-width: 1200px){
-    
-}
+@media screen and (min-width: 1200px) {}
